@@ -1,1 +1,2 @@
-<ng2-flatpickr placeholder="Pick a date!" [setDate]="'1988-09-19'" formControlName="formControlName"></ng2-flatpickr>
+<ng2-flatpickr placeholder="Pick a date!" [setDate]="date" formControlName="formControlName" (onChange)="pickerChange($event)" (onFocus)="pickerChange($event)"></ng2-flatpickr>
+--------------{{date}}-------------
