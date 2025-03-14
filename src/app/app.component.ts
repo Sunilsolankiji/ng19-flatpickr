@@ -1,4 +1,3 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Ng2Flatpickr } from 'ng2-flatpickr';
 
